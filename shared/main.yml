@@ -13,12 +13,12 @@
         - ansible_distribution_major_version | int == 6
 
   roles:
-    - role: jtprogru.nfs
+    - role: geerlingguy.nfs
 
-    - role: jtprogru.packer_rhel
+    - role: geerlingguy.packer_rhel
       when: ansible_os_family == 'RedHat'
 
-    - role: jtprogru.packer-debian
+    - role: geerlingguy.packer-debian
       when: ansible_os_family == 'Debian'
 
   tasks:

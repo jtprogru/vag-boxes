@@ -1,4 +1,4 @@
 ---
-- src: jtprogru.packer_rhel
-- src: jtprogru.packer-debian
-- src: jtprogru.nfs
+- src: geerlingguy.packer_rhel
+- src: geerlingguy.packer-debian
+- src: geerlingguy.nfs
